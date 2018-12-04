@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/set_homeurl"
+            style="@style/setup_browser"
+            android:text="@string/setup_homeurl" />
+
+        <View style="@style/setup_view" />
+
+        <TextView
+            android:id="@+id/set_search"
+            style="@style/setup_browser"
+            android:text="@string/setup_search" />
+
+        <View style="@style/setup_view" />
+
+        <TextView
+            android:id="@+id/set_useragent"
+            style="@style/setup_browser"
+            android:text="@string/setup_useragent" />
+
+        <View style="@style/setup_view" />
+
+        <TextView
+            android:id="@+id/set_show_search"
+            style="@style/setup_browser"
+            android:text="@string/setup_search_text" />
+
+        <View style="@style/setup_view" />
+
+        <TextView
+            android:id="@+id/set_checkupdate"
+            style="@style/setup_browser"
+            android:text="@string/check_update" />
+
+        <View style="@style/setup_view" />
+
+        <Switch
+            android:id="@+id/set_update"
+            style="@style/setup_switch"
+            android:checked="true"
+            android:text="@string/update_set" />
+
+        <View style="@style/setup_view" />
+
+        <Switch
+            android:id="@+id/set_javascript"
+            style="@style/setup_switch"
+            android:checked="true"
+            android:text="@string/enablejs" />
+
+        <View style="@style/setup_view" />
+
+        <Switch
+            android:id="@+id/set_mulwin"
+            style="@style/setup_switch"
+            android:checked="true"
+            android:text="@string/open_multiwindow_set" />
+
+        <View style="@style/setup_view" />
+
+        <Switch
+            android:id="@+id/set_image"
+            style="@style/setup_switch"
+            android:checked="false"
+            android:text="@string/enableimage" />
+
+        <View style="@style/setup_view" />
+
+        <Switch
+            android:id="@+id/set_jsopen"
+            style="@style/setup_switch"
+            android:checked="true"
+            android:text="@string/js_can_openwindow" />
+
+        <View style="@style/setup_view" />
+
+        <Switch
+            android:id="@+id/set_copy"
+            style="@style/setup_switch"
+            android:checked="false"
+            android:text="@string/open_copy" />
+
+        <View style="@style/setup_view" />
+
+        <Switch
+            android:id="@+id/set_ad"
+            style="@style/setup_switch"
+            android:checked="false"
+            android:text="@string/start_url_intercept" />
+
+        <View style="@style/setup_view" />
+
+        <TextView
+            android:id="@+id/set_adset"
+            style="@style/setup_browser"
+            android:text="@string/url_intercept_list" />
+
+        <View style="@style/setup_view" />
+
+        <Switch
+            android:id="@+id/set_js"
+            style="@style/setup_switch"
+            android:checked="false"
+            android:text="@string/open_javascript_intercept" />
+
+        <View style="@style/setup_view" />
+
+        <TextView
+            android:id="@+id/set_jsset"
+            style="@style/setup_browser"
+            android:text="@string/intercept_js_list" />
+
+        <View style="@style/setup_view" />
+
+        <Switch
+            android:id="@+id/set_address"
+            style="@style/setup_switch"
+            android:checked="true"
+            android:text="@string/enableaddress" />
+
+        <View style="@style/setup_view" />
+
+        <Switch
+            android:id="@+id/set_ssl"
+            style="@style/setup_switch"
+            android:checked="true"
+            android:text="@string/enablehttps" />
+
+        <View style="@style/setup_view" />
+
+        <Switch
+            android:id="@+id/set_download"
+            style="@style/setup_switch"
+            android:checked="true"
+            android:text="开启文件下载" />
+
+        <View style="@style/setup_view" />
+
+        <Switch
+            android:id="@+id/set_error"
+            style="@style/setup_switch"
+            android:checked="true"
+            android:text="@string/error_set" />
+
+        <View style="@style/setup_view" />
+
+        <TextView
+            android:id="@+id/clear"
+            style="@style/setup_browser"
+            android:text="@string/cleardata" />
+
+    </LinearLayout>
+</ScrollView>

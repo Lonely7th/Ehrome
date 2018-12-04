@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/about_version"
+        style="@style/setup_browser" />
+
+    <View style="@style/setup_view" />
+
+    <TextView
+        android:id="@+id/about_version_name"
+        style="@style/setup_browser" />
+
+    <View style="@style/setup_view" />
+
+    <TextView
+        android:id="@+id/about_qq"
+        style="@style/setup_browser" />
+
+    <View style="@style/setup_view" />
+
+    <TextView
+        style="@style/setup_browser"
+        android:text="@string/source_url" />
+
+    <TextView
+        android:id="@+id/about_source"
+        style="@style/setup_browser" />
+
+    <View style="@style/setup_view" />
+
+    <TextView
+        style="@style/setup_browser"
+        android:text="@string/add_qq_feedback" />
+
+</LinearLayout>

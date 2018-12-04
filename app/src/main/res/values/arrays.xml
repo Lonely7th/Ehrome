@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search">
+        <item>百度搜索</item>
+        <item>神马搜索</item>
+        <item>360搜索</item>
+        <item>搜狗搜索</item>
+        <item>中国搜索</item>
+        <item>Bing搜索</item>
+    </string-array>
+
+    <string-array name="show">
+        <item>显示网页标题</item>
+        <item>显示网页链接</item>
+    </string-array>
+
+    <string-array name="clear">
+        <item>清除历史记录</item>
+        <item>清除缓存数据</item>
+        <item>清除SSL证书数据</item>
+        <item>清除网页表单填充数据</item>
+        <item>清除Cookie数据</item>
+        <item>清除WebStorage数据</item>
+    </string-array>
+    <string-array name="more">
+        <item>设为主页</item>
+        <item>添加至书签</item>
+        <item>拦截URL</item>
+        <item>拦截JavaScript</item>
+        <item>拦截此网页</item>
+        <item>查看此网页信息</item>
+        <item>复制当前页面链接</item>
+        <item>分享此网页</item>
+    </string-array>
+
+    <string-array name="history_more">
+        <item>设为主页</item>
+        <item>添加至书签</item>
+        <item>删除此条记录</item>
+    </string-array>
+
+    <string-array name="useragent">
+        <item>Android</item>
+        <item>iPhone</item>
+        <item>电脑</item>
+    </string-array>
+    <string-array name="more_nookmark">
+        <item>设为主页</item>
+        <item>编辑书签</item>
+        <item>删除书签</item>
+    </string-array>
+    <string-array name="address">
+        <item>此次不允许</item>
+        <item>永久拒绝</item>
+        <item>此次允许</item>
+        <item>永久允许</item>
+    </string-array>
+
+    <string-array name="update">
+        <item>启动时检查更新</item>
+        <item>不检查更新</item>
+    </string-array>
+</resources>

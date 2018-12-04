@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add"
+        android:title="添加书签"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/clear"
+        android:title="清除所有书签数据"
+        app:showAsAction="never" />
+</menu>

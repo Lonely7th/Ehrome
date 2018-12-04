@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/et_homeurl"
+        android:inputType="textUri"
+        android:textColor="#333"
+        android:singleLine="true"
+        android:background="@drawable/edit_bg"
+        android:layout_width="match_parent"
+        android:hint="以http开头的网址"
+        android:layout_height="wrap_content" />
+</LinearLayout>
